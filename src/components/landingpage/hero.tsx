@@ -26,7 +26,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-white md:px-16">
       {/* Hero Section */}
       <section className="relative h-[80vh] overflow-hidden">
         {/* Background Images with Transitions */}
