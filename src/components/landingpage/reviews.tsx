@@ -97,21 +97,6 @@ export const Reviews = () => {
         {/* Testimonials Slider */}
         <div className="relative">
           {/* Navigation Arrows */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 z-20 bg-white/10 hover:bg-white/20 rounded-full p-4 transition-all duration-300 backdrop-blur-sm"
-            aria-label="Previous testimonials"
-          >
-            <ChevronLeft className="w-6 h-6 text-white" />
-          </button>
-
-          <button
-            onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 z-20 bg-white/10 hover:bg-white/20 rounded-full p-4 transition-all duration-300 backdrop-blur-sm"
-            aria-label="Next testimonials"
-          >
-            <ChevronRight className="w-6 h-6 text-white" />
-          </button>
 
           {/* Slider Container */}
           <div className="overflow-hidden">
